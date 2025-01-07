@@ -9,6 +9,6 @@ session_unset();
 session_destroy();
 
 
-header("Location: /wisatareligi/index.html");
+header("Location: ../wisatareligi/index.html");
 exit();
 ?>
