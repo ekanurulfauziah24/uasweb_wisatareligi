@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #87CEEB; /* Warna biru langit sebagai latar belakang */
+    background-size: cover; /* Tidak dibutuhkan karena menggunakan warna */
+    background-position: center; /* Tidak dibutuhkan karena menggunakan warna */
+    background-repeat: no-repeat; /* Tidak dibutuhkan karena menggunakan warna */
+    background-attachment: fixed; /* Tidak dibutuhkan karena menggunakan warna */
+}
+
+header {
+    background-color: #87CEEB; /* Warna biru langit sebagai latar belakang header */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Media Query untuk layar desktop */
+@media (min-width: 1024px) {
+    body {
+        background-color: #87CEEB; /* Warna biru langit untuk layar desktop */
+    }
+
+    header {
+        background-color: #87CEEB; /* Warna biru langit untuk header di desktop */
+    }
+}
+
+/* Media Query untuk layar dengan ukuran lebih kecil */
+@media (max-width: 1023px) {
+    body {
+        background-color: #87CEEB; /* Warna biru langit untuk layar kecil */
+    }
+
+    header {
+        background-color: #87CEEB; /* Warna biru langit untuk header di layar kecil */
+    }
+}
